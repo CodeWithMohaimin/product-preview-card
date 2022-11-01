@@ -18,18 +18,20 @@
     width: 100%;
     min-height: 100vh;
 }
-.container{
-    display: flex;
-    max-width: 800px;
-    border-radius: 10px;
-}
-.image_section img{
+.image_one{
     width: 100%;
+    max-width: 420px;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+.image_two{
+    display: none;
 }
 .text_section{
     background-color: hsl(0, 0%, 100%);
     max-width: 400px;
     padding: 30px;
+    border-radius: 0 20px 20px 0;
 }
 .text_section p{
     text-transform: uppercase;
@@ -56,9 +58,11 @@
 }
 .current_price{
     font-size: 2.5rem ;
+    color: hsl(158, 36%, 37%);
 }
 button{
-    padding: .7rem 3rem;
+    padding: 1rem 3rem;
+    width: 100%;
     border: none;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
@@ -68,11 +72,9 @@ button{
     cursor: pointer;
     margin: 20px 0;
 }
-
-span{
-    color: hsl(228, 12%, 48%);
-    color: hsl(0, 0%, 100%);
-    color: hsl(212, 21%, 14%);
-    color: hsl(30, 38%, 92%);
-    color: hsl(158, 36%, 37%);
+.container{
+    display: flex;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 15px;
 }

@@ -1,5 +1,5 @@
 # Frontend Mentor - Product preview card component
-## This Project is basically for Frontend Mentor challenge project. Where I create A Product Preview Card for Frontend Mentor  with Html and CSS. It's Great project for learning CSS Grid and CSS Flex Box and CSS media query.
+### This Project is basically for Frontend Mentor challenge project. Where I create A Product Preview Card for Frontend Mentor  with Html and CSS. It's Great project for learning CSS Grid and CSS Flex Box and CSS media query.
 
 # Live Link [Click Here](https://cheery-licorice-cc0148.netlify.app/)
 
